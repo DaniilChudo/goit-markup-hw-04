@@ -145,6 +145,7 @@ color: var(--accent-text-color);
 
 .list-contacts {
  display: flex;
+text-align: center;
  margin-left: 344px;
 }
 
@@ -171,14 +172,18 @@ margin-left: 50px;
 
 /*--------------------Hero-----------------*/
 
-.container-hero {
-max-width: 1600px;
-margin: 0 auto;
-background-image: url(../images/herofon/imgh.png);
-}
+/*.container-hero {
+}*/
 
 .hero {
-background-color: var(--secondary-background-color);
+max-width: 1600px;
+height: 600px;
+margin: 0 auto;
+background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+url(../images/herofon/imgh.png);
+background-repeat: no-repeat;
+background-position: center;
+background-color: #C4C4C4;
 text-align: center;
 padding-top: 200px;
 padding-bottom: 200px;
