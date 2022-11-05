@@ -143,10 +143,14 @@ color: var(--main-title-color);
 color: var(--accent-text-color);
 }
 
+.icon-envelope:hover, .icon-envelope:focus, .icon-smartphone:hover, .icon-smartphone:focus {
+fill: currentColor;
+ }
+
 .list-contacts {
- display: flex;
+display: flex;
 text-align: center;
- margin-left: 344px;
+margin-left: 318px;
 }
 
 .header-tel, .header-mail {
@@ -159,16 +163,31 @@ color: var(--primary-text-color);
 
 .header-tel {
 display: flex;
+align-items: center;
 padding-top: 32px;
 padding-bottom: 32px;
-margin-left: 50px;
+margin-left: 30px;
 }
 
 .header-mail {
  display: flex;
+ align-items: center;
  padding-top: 32px;
  padding-bottom: 32px;
 }
+
+.icon-envelope {  
+fill: #757575;
+margin-right: 10px; 
+}
+
+.icon-smartphone {  
+fill: #757575;
+margin-right: 10px;
+}
+
+
+
 
 /*--------------------Hero-----------------*/
 
