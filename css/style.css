@@ -266,9 +266,9 @@ margin-right: 30px;
 margin-bottom: 30px;
 }
 
-.benf-icon {
+/*.benf-icon {
 
-}
+}*/
 
 
 .benefits {
@@ -320,6 +320,7 @@ color: var(--main-text-color);
  }
 
  .team-item {
+background-color: var(--main-background-color);
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
  }
@@ -346,7 +347,6 @@ line-height: calc(19 / 16);
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-title-color);
-pudd
 }
 
 .team-description {
@@ -385,16 +385,18 @@ border-radius: 50%;
 fill: var(--main-background-color);
 }
 
+/*--------------customers---------*/
+
 .regular-customers {
 padding-top: 94px;
 padding-bottom: 94px;
 }
 
-.container-regular-customers {
+.regular-customers-link {
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #F5F5F5;
+background-color: var(--main-background-color);
 width: 170px;
 height: 92px;
 border-radius: 4px;
@@ -402,15 +404,26 @@ border: 1px solid #AFB1B8;
 border-radius: 4px;
 }
 
+.regular-customers-icon{
+fill: #AFB1B8;
+}
+
  .regular-customers-item {
     --items: 6;
  }
 
  .regular-customers-title {
-    
+    margin-bottom: 50px;
  }
 
-
+ .regular-customers-link:hover, .regular-customers-link:focus {
+        border-color: var(--accent-text-color);
+ }
+ 
+.regular-customers-link:hover .regular-customers-icon,
+.regular-customers-link:focus .regular-customers-icon {
+    fill: var(--accent-text-color);
+}
 
 
 
