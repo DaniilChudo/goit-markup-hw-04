@@ -419,7 +419,7 @@ fill: #AFB1B8;
  .regular-customers-link:hover, .regular-customers-link:focus {
         border-color: var(--accent-text-color);
  }
- 
+
 .regular-customers-link:hover .regular-customers-icon,
 .regular-customers-link:focus .regular-customers-icon {
     fill: var(--accent-text-color);
@@ -432,6 +432,10 @@ fill: #AFB1B8;
 background-color: var(--secondary-background-color);
 padding-top: 60px;
 padding-bottom: 60px;
+}
+
+.footer-cantainer {
+display: flex;
 }
 
 .logo {
@@ -487,7 +491,20 @@ color: rgba(255, 255, 255, 0.6);
  color: var(--accent-text-color);
  }
 
-
+ .footer-socials-container {
+    display: inline;
+ }
+ 
+.footer-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--adress-text-color);
+}
 
  /*-----PORTFOLI----*/
 
