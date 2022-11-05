@@ -267,7 +267,7 @@ margin-bottom: 30px;
 }
 
 .benf-icon {
-    
+
 }
 
 
@@ -276,6 +276,7 @@ padding-top: 94px;
 }
 
 .benefits-list .benefits-item:not(:last-child) {
+    margin-right: 30px;
 }
 
  .benefits-list {
@@ -383,6 +384,35 @@ border-radius: 50%;
 .soc-link:focus .soc-icon {
 fill: var(--main-background-color);
 }
+
+.regular-customers {
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.container-regular-customers {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F5F5F5;
+width: 170px;
+height: 92px;
+border-radius: 4px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
+ .regular-customers-item {
+    --items: 6;
+ }
+
+ .regular-customers-title {
+    
+ }
+
+
+
+
 
 /*-----------------Footer-------------*/
 .footer {
