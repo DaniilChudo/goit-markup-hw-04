@@ -110,11 +110,12 @@ line-height: calc(31 / 26);
 letter-spacing: 0.03em;
 color: var(--logo-web-text-color);
 text-decoration: none;
+margin-right: 93px;
 }
 
 .logo-header {
 color:var(--first-studio-text-color);
-margin-right: 93px;
+
 }
 
 .nav {
@@ -351,6 +352,7 @@ color: var(--main-title-color);
 
 .team-description {
 font-size: 16px;
+margin-bottom: 16px;
 line-height: calc(19 / 16);
 text-align: center;
 letter-spacing: 0.03em;
@@ -381,7 +383,7 @@ border-radius: 50%;
 }
 
 .socials-link:hover .soc-icon,
-.soc-link:focus .soc-icon {
+.socials-link:focus .soc-icon {
 fill: var(--main-background-color);
 }
 
